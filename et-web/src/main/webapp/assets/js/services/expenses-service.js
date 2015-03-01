@@ -3,7 +3,7 @@
  */
 
 angular.module("app")
-    .service("ExpensesService", ['$http',
+    .service("TestService", ['$http',
 function ExtInvestigationRequestsService($http ) {
     var url ="api/expenses";
 
